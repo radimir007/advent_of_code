@@ -82,7 +82,6 @@ int main() {
 
         if (isPossible) {
             result += stoi(gameId);
-        } else {
         }
         
     }

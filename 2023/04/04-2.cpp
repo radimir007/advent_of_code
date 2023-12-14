@@ -97,7 +97,7 @@ int main() {
         int winningCount = stoi(cards[i].substr(index+1));
         if (winningCount != 0) {
 
-            for (int j = stoi(cardNumber); j <= stoi(cardNumber) + winningCount; j++) {
+            for (int j = stoi(cardNumber) + 1; j <= stoi(cardNumber) + winningCount; j++) {
                 for (int k = 0; k < cards.size(); k++) {
                     string currentNumber = {};
                     int indexIn = cards[k].find(':');
